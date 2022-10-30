@@ -82,7 +82,8 @@ li {
   margin-bottom: 10px;
 }
 
-.sub-section {
+.sub-section1,
+.sub-section2 {
   background-color: antiquewhite;
   margin-bottom: 10px;
   border-radius: 8px;
