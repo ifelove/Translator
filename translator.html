@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translator</title>
+    <link rel="stylesheet" href="translator.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Translator App</h1>
+      <div class="interchange">
+        <div class="location">
+          <span><p>From</p></span>
+          <div class="select-box">
+            <img src="https://flagsapi.com/US/flat/64.png" />
+            <select>
+              <option value="USD">America</option>
+              <option value="NGA">America</option>
+              <option value="UAD">America</option>
+              <option value="USA">America</option>
+              <option value="UED">America</option>
+              <option value="USD">America</option>
+              <option value="NGA">America</option>
+              <option value="UAD">America</option>
+              <option value="USA">America</option>
+              <option value="UED">America</option>
+            </select>
+          </div>
+        </div>
+
+        <span class="exchange-icon"
+          ><span class="material-icons"> sync_alt </span></span
+        >
+
+        <div class="location">
+          <span><p>To</p></span>
+          <div class="select-box">
+            <img src="https://flagsapi.com/US/flat/64.png" />
+            <select>
+              <option value="USD">America</option>
+              <option value="NGA">America</option>
+              <option value="UAD" selected>America1</option>
+              <option value="USA" disabled>America2</option>
+              <option value="UED" title="welcome">America3</option>
+              <option value="USD">America4</option>
+              <option value="NGA">America</option>
+              <option value="UAD">America</option>
+              <option value="USA">America</option>
+              <option value="UED">America</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="position">Translate From language</div>
+      <section class="input-text">
+        <textarea class="from-text" placeholder="Enter text"></textarea>
+
+        <main class="sub-section">
+          <ul>
+            <li>234/3000</li>
+            <div class="li-class">
+              <li><span class="material-icons"> content_copy </span></li>
+              <li><span class="material-icons"> volume_up </span></li>
+            </div>
+          </ul>
+        </main>
+      </section>
+      <div class="position">Translate To language</div>
+      <section class="result-tex">
+        <textarea
+          class="to-text"
+          placeholder="Translating"
+          readonly
+          disabled
+        ></textarea>
+
+        <main class="sub-section">
+          <ul>
+            <li>234/3000</li>
+            <div class="li-class">
+              <li><span class="material-icons"> content_copy </span></li>
+              <li><span class="material-icons"> volume_up </span></li>
+            </div>
+          </ul>
+        </main>
+      </section>
+
+      <div class="footer">
+        <span><span class="material-icons"> speaker_notes </span></span>
+        <span><span class="material-icons"> keyboard_voice </span></span>
+        <span><span class="material-icons"> image </span></span>
+        <span><span class="material-icons"> settings </span></span>
+      </div>
+    </div>
+
+    <script src="countryCode."></script>
+    <script src="translator.js"></script>
+  </body>
+</html>

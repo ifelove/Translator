@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,200;1,300;1,500;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "popping", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+.container {
+  background-color: black;
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+}
+textarea {
+  width: 100%;
+  min-height: 200px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.interchange {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background-color: antiquewhite;
+}
+
+li {
+  list-style: none;
+}
+.li-class {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 0;
+}
+
+.position {
+  margin-bottom: 10px;
+}
+.input-text,
+.result-text {
+  margin-bottom: 10px;
+}
+
+.sub-section {
+  background-color: antiquewhite;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 15px;
+}
+.material-icons {
+  cursor: pointer;
+}
