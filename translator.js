@@ -34,13 +34,19 @@ class Translator {
         //console.log(langTag);
       }
 
-      this.loadFlag();
+      selectContainer.addEventListener("change", (e) => {
+        this.loadFlag(e.target);
+      });
     });
   }
 
-  loadFlag() {
+  loadFlag(element) {
     for (const lang in country_code) {
-      console.log(lang);
+      let langSub = lang.slice(-2);
+      if (lang == element.value) {
+        let imagTag = element.parentElement.querySelector("img");
+        imagTag.src = `https://flagsapi.com/${langSub}/flat/64.png`;
+      }
     }
   }
 }
