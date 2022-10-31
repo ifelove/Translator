@@ -75,7 +75,7 @@ li {
 }
 
 .position1,
-.position1 {
+.position2 {
   margin-bottom: 10px;
 }
 .input-text,
@@ -93,4 +93,9 @@ li {
 }
 .material-icons {
   cursor: pointer;
+}
+
+img {
+  width: 40px;
+  height: 40px;
 }

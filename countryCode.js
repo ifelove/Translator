@@ -1,5 +1,4 @@
 let country_code = {
-  "zh-CHS": "Chinese",
   "ar-SA": "Arabic ",
   "bg-BG": "Bulgaria",
   "ca-ES": "Catalan",
@@ -224,5 +223,4 @@ let country_code = {
   "es-NI": "Spanish",
   "es-PR": "Spanish",
   "es-US": "Spanish",
-  "zh-CHT": "Chinese",
 };
